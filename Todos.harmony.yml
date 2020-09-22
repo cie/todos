@@ -1,0 +1,19 @@
+---
+  projectName: "Todos"
+  description: ""
+  features: 
+    - 
+      name: "Todos"
+      order: 0
+      description: ""
+      documentation: ""
+      categories: "URL(I): ${SUT}\nDB Todos(IO): none(\"[]\"); only the one created (#like \"\"\"\n  - title: create something\n    _id: *\n  \"\"\"); \nDB New Todo(I): sth simple (\"title: create something\"); \nTodos(O): \"No todos\""
+      constraints: "no todos(ONLY):\nGIVEN URL IS ${SUT} \nWHEN DB Todos ARE none \nTHEN THEY ARE none \nAND Todos ARE \"No todos\" \n\ncreate new todo:\nGIVEN no todos \nWHEN DB New Todo IS sth simple\nTHEN DB Todos IS only the one created"
+      tests: 
+        - 
+          name: "no todos"
+        - 
+          name: "create new todo"
+      attachments: []
+      id: ""
+
