@@ -9,7 +9,7 @@
     "html-webpack-plugin": "^3.2.0",
     "js-yaml": "^3.14.0",
     "simpl-schema": "^1.10.1",
-    "svelte": "^3.25.1",
+    "svelte": "^3.49.0",
     "svelte-loader": "^2.13.6",
     "webpack": "^4.44.2",
     "webpack-dev-middleware": "^3.7.2",
